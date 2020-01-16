@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="Week 2 Examples/Springweek1/src"/>
+	<classpathentry kind="src" path="workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/work/Catalina/localhost/week01"/>
+	<classpathentry kind="src" path="workspace/Lab Exercise01/src"/>
+	<classpathentry kind="src" path="workspace/server/apache-tomcat-9.0.24/webapps/docs/appdev/sample/src"/>
+	<classpathentry kind="src" path="workspace/server/apache-tomcat-9.0.24/webapps/examples/jsp/plugin/applet"/>
+	<classpathentry kind="src" path="workspace/server/apache-tomcat-9.0.24/webapps/examples/WEB-INF/classes"/>
+	<classpathentry kind="src" path="workspace/server/apache-tomcat-9.0.24/webapps/examples/WEB-INF/jsp/applet"/>
+	<classpathentry kind="src" path="workspace/week01/src"/>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-aop-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-aop-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-aop-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-aspects-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-aspects-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-aspects-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-beans-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-beans-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-beans-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-context-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-context-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-context-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-context-indexer-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-context-indexer-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-context-indexer-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-context-support-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-context-support-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-context-support-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-core-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-core-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-core-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-expression-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-expression-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-expression-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-instrument-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-instrument-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-instrument-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-jcl-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-jcl-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-jcl-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-jdbc-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-jdbc-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-jdbc-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-jms-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-jms-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-jms-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-messaging-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-messaging-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-messaging-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-orm-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-orm-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-orm-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-oxm-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-oxm-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-oxm-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-test-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-test-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-test-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-tx-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-tx-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-tx-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-web-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-web-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-web-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-webflux-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-webflux-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-webflux-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-webmvc-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-webmvc-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-webmvc-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-websocket-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-websocket-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/spring-5.2.2.RELEASE-dist/spring-framework-5.2.2.RELEASE/libs/spring-websocket-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-aop-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-aop-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-aop-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-aspects-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-aspects-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-aspects-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-beans-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-beans-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-beans-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-context-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-context-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-context-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-context-indexer-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-context-indexer-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-context-indexer-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-context-support-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-context-support-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-context-support-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-core-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-core-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-core-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-expression-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-expression-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-expression-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-instrument-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-instrument-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-instrument-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-jcl-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-jcl-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-jcl-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-jdbc-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-jdbc-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-jdbc-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-jms-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-jms-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-jms-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-messaging-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-messaging-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-messaging-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-orm-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-orm-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-orm-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-oxm-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-oxm-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-oxm-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-test-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-test-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-test-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-tx-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-tx-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-tx-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-web-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-web-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-web-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-webflux-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-webflux-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-webflux-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-webmvc-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-webmvc-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-webmvc-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-websocket-5.2.2.RELEASE-javadoc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-websocket-5.2.2.RELEASE-sources.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Week 2 Examples/Springweek1/libs/spring-websocket-5.2.2.RELEASE.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/bin/bootstrap.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/bin/commons-daemon.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/bin/tomcat-juli.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/annotations-api.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/catalina-ant.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/catalina-ha.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/catalina-storeconfig.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/catalina-tribes.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/catalina.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/ecj-4.12.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/el-api.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/jasper-el.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/jasper.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/jaspic-api.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/jsp-api.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/servlet-api.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/tomcat-api.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/tomcat-coyote.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/tomcat-dbcp.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/tomcat-i18n-cs.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/tomcat-i18n-de.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/tomcat-i18n-es.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/tomcat-i18n-fr.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/tomcat-i18n-ja.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/tomcat-i18n-ko.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/tomcat-i18n-pt-BR.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/tomcat-i18n-ru.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/tomcat-i18n-zh-CN.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/tomcat-jdbc.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/tomcat-jni.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/tomcat-util-scan.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/tomcat-util.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/tomcat-websocket.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/lib/websocket-api.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="workspace/server/apache-tomcat-9.0.24/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="Week 2 Examples/Springweek1/bin"/>
+</classpath>
